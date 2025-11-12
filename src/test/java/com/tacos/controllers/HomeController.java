@@ -11,7 +11,6 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.view;
 
-// @SpringBootTest(classes = TacoCloudApplication.class)
 @AutoConfigureMockMvc
 @WebMvcTest(HomeController.class)
 public class HomeController {
