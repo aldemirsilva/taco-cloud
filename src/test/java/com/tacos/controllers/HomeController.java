@@ -18,7 +18,6 @@ public class HomeController {
   @Autowired
   private MockMvc mockMvc;
 
-  @SuppressWarnings("null")
   @Test
   public void testHomePage() throws Exception {
     mockMvc.perform(get("/"))
